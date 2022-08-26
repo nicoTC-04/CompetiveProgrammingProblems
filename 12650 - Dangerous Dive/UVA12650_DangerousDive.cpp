@@ -3,15 +3,15 @@
 using namespace std;
 
 int main(){
-    int R, N, alive;
+    int R, N, survive;
     
     while(scanf("%d %d", &N, &R) != EOF){
         
         vector<int> people(N);
 
         for(int i = 0; i < R; ++i){
-            scanf("%d", &alive);
-            people[alive-1] = 1;
+            scanf("%d", &survive);
+            people[survive-1] = 1;
         }
 
         if(N == R)
