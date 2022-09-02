@@ -12,6 +12,7 @@ using std::cout;
 #define endl "\n"
 
 int main(){
+    
     string inputLine;
     bool Start;
     
