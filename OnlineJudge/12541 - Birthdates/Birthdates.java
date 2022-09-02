@@ -56,6 +56,7 @@ public class Birthdates {
     }
 
     // end of fast i/o code
+    
     public static void main(String[] args) {
         FastReader reader = new FastReader();
 
