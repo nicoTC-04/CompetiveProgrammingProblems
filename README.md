@@ -1,2 +1,2 @@
-# OnlineJudge_programs
-Programs I code during the college's extracurricular algorithm club in online judge.
+# CompetiveProgrammingProblems
+Programs I code to solve problems in online sources such as CodeForces or OnlineJudge.
