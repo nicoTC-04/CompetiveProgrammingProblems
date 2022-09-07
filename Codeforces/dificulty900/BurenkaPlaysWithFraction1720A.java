@@ -73,7 +73,7 @@ public class BurenkaPlaysWithFraction1720A {
             num2 = Integer.parseInt(ints[2]);
             den2 = Integer.parseInt(ints[3]);
 
-            if(num1*den2 == num2*den1){
+            if((long)num1*den2 == (long)num2*den1){
                 System.out.println("0");
                 continue;
             }
@@ -88,12 +88,11 @@ public class BurenkaPlaysWithFraction1720A {
                 continue;
             }
 
-            if((num1*den2)%(num2*den1) == 0 || (num2*den1)%(num1*den2) == 0){
+            if(((long)num1*den2)%((long)num2*den1) == 0 || ((long)num2*den1)%((long)num1*den2) == 0){
                 System.out.println("1");
             }else{
                 System.out.println("2");
             }
         }
-
     }
-}
+}   
