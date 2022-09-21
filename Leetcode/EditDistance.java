@@ -1,5 +1,3 @@
-//package Leetcode;
-
 public class EditDistance {
     public static int minDistance(String word1, String word2) {
         int[][] Changes = new int[word1.length()+1][word2.length()+1];
@@ -22,12 +20,12 @@ public class EditDistance {
             }
         }
 
-        for(int i=0; i<Changes.length; i++){
+        /*for(int i=0; i<Changes.length; i++){
             System.out.println("");
             for(int j=0; j<Changes[i].length; j++){
                 System.out.print(Changes[i][j]+" ");
             }
-        }
+        }*/
 
         return Changes[word1.length()][word2.length()];
     }
