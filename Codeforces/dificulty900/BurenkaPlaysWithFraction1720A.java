@@ -1,6 +1,4 @@
 import java.util.*;
-import java.lang.Math;
-import javax.annotation.processing.SupportedSourceVersion;
 import java.io.*;
 
 public class BurenkaPlaysWithFraction1720A {
