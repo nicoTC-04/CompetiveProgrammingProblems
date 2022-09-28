@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class facebook {
+public class ProblemA {
     // For fast input output
     static class FastReader {
         BufferedReader br;
